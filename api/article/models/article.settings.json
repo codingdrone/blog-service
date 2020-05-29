@@ -1,0 +1,66 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "key": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ]
+    },
+    "keywordsTag": {
+      "type": "string"
+    },
+    "titleTag": {
+      "type": "string"
+    },
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogKeyword": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "string"
+    },
+    "ogUrl": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
